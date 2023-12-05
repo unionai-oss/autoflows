@@ -1,10 +1,10 @@
 <div align="center">
 <img src="static/logo.png" width="250px"></img>
+
+<h1>Autoflows</h1>
+
+<i>Automated Flyte Workflows using LLMs</i>
 </div>
-
-# Autoflows
-
-*Automated Flyte Workflows using LLMs*
 
 The `autoflows` package allows you to run Flyte workflows that are powered by
 LLMs. These workflows use LLMs to determine which task to run in a suite of
