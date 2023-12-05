@@ -57,7 +57,7 @@ DECK_HTML_TEMPLATE = """
 <p>{output_contents}</p>
 """
 
-def auto(
+def autoflow(
     _fn=None,
     *,
     tasks,
@@ -72,7 +72,7 @@ def auto(
     
     if _fn is None:
         return partial(
-            auto,
+            autoflow,
             tasks=tasks,
             remote=remote,
             client_secret_group=client_secret_group,

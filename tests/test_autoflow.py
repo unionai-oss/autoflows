@@ -111,7 +111,7 @@ remote = FlyteRemote(
 )
 
 
-@auto(
+@autoflow(
     remote=remote,
     client_secret_group=CLIENT_SECRET_GROUP,
     client_secret_key=CLIENT_SECRET_KEY,
