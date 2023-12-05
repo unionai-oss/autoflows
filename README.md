@@ -1,5 +1,5 @@
-<div>
-<img src="static/logo.png" width="300px"></img>
+<div align="center">
+<img src="static/logo.png" width="250px"></img>
 </div>
 
 # Autoflows
