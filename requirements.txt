@@ -1,0 +1,3 @@
+docstring_parser
+flytekit
+openai

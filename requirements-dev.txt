@@ -1,0 +1,5 @@
+-r requirements.txt
+flytekitplugins-envd
+joblib
+pandas
+scikit-learn
