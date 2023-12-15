@@ -57,7 +57,7 @@ run our autoflow.
 remote = FlyteRemote(
     config=Config(
         platform=PlatformConfig(
-            endpoint="<my_endpoitn>",
+            endpoint="<my_endpoint>",
             client_id="<my_client_id>",
         ),
     ),
