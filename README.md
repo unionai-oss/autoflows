@@ -34,7 +34,7 @@ image_spec = ImageSpec(
     python_version="3.10",
 )
 
-
+# 👇 These are trusted Flyte tasks
 @task(container_image=image_spec)
 def add_numbers(x: float, y: float) -> FlyteFile: ...
 
